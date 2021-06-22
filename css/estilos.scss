@@ -1,0 +1,59 @@
+.tablahome{
+    background: linear-gradient(90deg, rgba(2, 0, 36, 0.253) 0%, rgba(9, 9, 121, 0.671) 35%, rgba(0, 213, 255, 0.288) 100%);
+    h1{
+        color: rgb(11, 179, 41);
+        text-shadow: 2px 2px #0d4d0d;
+    }
+}
+
+.tablajuegos{
+    background: linear-gradient(90deg, rgba(6, 19, 48, 0.842) 0%, rgba(51, 22, 131, 0.747) 35%, rgba(45, 2, 58, 0.808) 100%);
+    img{
+        width: 150px;
+        height: 150px;
+    }
+    .edit{
+        background-color: black;
+        width: 300px;
+        border: 1px solid rgb(255, 238, 0);
+    }
+    .imagen_edit{
+        width: 300px;
+        height: 250px;
+        padding: 3px;
+    }
+}
+
+.h1juegos{
+    text-shadow: 2px 2px #2e0541;
+}
+
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #fcfcfc;
+    background-image: url("../assets/star.png");
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 1300px;
+}
+
+#nav {
+    padding: 30px;
+    a{
+        font-size: 20px;
+        font-weight: bold;
+        color: #ffa600;
+    }
+    a:hover {
+        font-size: 15px
+    }
+    a.router-link-exact-active {
+        color: #0db915;
+    }
+}

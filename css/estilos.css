@@ -1,0 +1,69 @@
+.tablahome {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(2, 0, 36, 0.253)), color-stop(35%, rgba(9, 9, 121, 0.671)), to(rgba(0, 213, 255, 0.288)));
+  background: linear-gradient(90deg, rgba(2, 0, 36, 0.253) 0%, rgba(9, 9, 121, 0.671) 35%, rgba(0, 213, 255, 0.288) 100%);
+}
+
+.tablahome h1 {
+  color: #0bb329;
+  text-shadow: 2px 2px #0d4d0d;
+}
+
+.tablajuegos {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(6, 19, 48, 0.842)), color-stop(35%, rgba(51, 22, 131, 0.747)), to(rgba(45, 2, 58, 0.808)));
+  background: linear-gradient(90deg, rgba(6, 19, 48, 0.842) 0%, rgba(51, 22, 131, 0.747) 35%, rgba(45, 2, 58, 0.808) 100%);
+}
+
+.tablajuegos img {
+  width: 150px;
+  height: 150px;
+}
+
+.tablajuegos .edit {
+  background-color: black;
+  width: 300px;
+  border: 1px solid #ffee00;
+}
+
+.tablajuegos .imagen_edit {
+  width: 300px;
+  height: 250px;
+  padding: 3px;
+}
+
+.h1juegos {
+  text-shadow: 2px 2px #2e0541;
+}
+
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #fcfcfc;
+  background-image: url("../assets/star.png");
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 1300px;
+}
+
+#nav {
+  padding: 30px;
+}
+
+#nav a {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffa600;
+}
+
+#nav a:hover {
+  font-size: 15px;
+}
+
+#nav a.router-link-exact-active {
+  color: #0db915;
+}
+/*# sourceMappingURL=estilos.css.map */
